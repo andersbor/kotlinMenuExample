@@ -1,14 +1,12 @@
 package dk.easj.anbo.menuexample
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
+import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import android.view.Menu
-import android.view.MenuItem
 import dk.easj.anbo.menuexample.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
