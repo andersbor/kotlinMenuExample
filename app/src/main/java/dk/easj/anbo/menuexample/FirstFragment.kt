@@ -40,8 +40,16 @@ class FirstFragment : Fragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        // boolean Return false to allow normal menu processing to proceed, true to consume it here.
+        // https://itecnote.com/tecnote/android-should-android-onoptionsitemselected-return-true-or-false/
         Log.d("APPLE", item.toString())
-        return super.onOptionsItemSelected(item)
+        when (item.itemId) {
+            R.id.action_settings ->
+                Snackbar.make(binding.firstfragment, "Settings..", Snackbar.LENGTH_LONG).show()
+            R.id.action_logout ->
+                Snackbar.make(binding.firstfragment, "Logout..", Snackbar.LENGTH_LONG).show()
+        }
+        return true
     }
 
     override fun onDestroyView() {
