@@ -48,6 +48,7 @@ class FirstFragment : Fragment() {
                 Snackbar.make(binding.firstfragment, "Settings..", Snackbar.LENGTH_LONG).show()
             R.id.action_logout ->
                 Snackbar.make(binding.firstfragment, "Logout..", Snackbar.LENGTH_LONG).show()
+
         }
         return true
     }

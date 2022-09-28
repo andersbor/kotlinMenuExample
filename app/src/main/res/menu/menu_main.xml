@@ -17,15 +17,17 @@
         android:title="Logout"
         app:showAsAction="ifRoom" />
 
-    <!-- https://www.youtube.com/watch?v=YaWmNhlOXYk&ab_channel=BrandanJones 0:40 -->
+    <!-- How to "create" icons
+     https://www.youtube.com/watch?v=YaWmNhlOXYk&ab_channel=BrandanJones 0:40 -->
 
     <item
         android:id="@+id/action_another"
         android:orderInCategory="200"
         android:title="Item with long title"
-        app:showAsAction="always" />
+        app:showAsAction="withText" />
 
     <item
+        android:visible="false"
         android:id="@+id/action_yet_another"
         android:orderInCategory="300"
         android:title="Yet another"
