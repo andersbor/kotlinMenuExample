@@ -35,7 +35,7 @@ class FirstFragment : Fragment() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater) {
-        super.onCreateOptionsMenu(menu, menuInflater)
+        //super.onCreateOptionsMenu(menu, menuInflater)
         menuInflater.inflate(R.menu.menu_main, menu)
     }
 
